@@ -1,0 +1,2 @@
+x_col,y_col,n_used,pearson_corr,rmse,mae,negate_y
+d(course)/dt (deg/s),Yaw-like rate from grav+rot (deg/s),3420,0.7076271511322351,1.582621504295251,0.9707631283718307,False
