@@ -1,0 +1,10 @@
+{
+  "description": "Empty scenario set for route '0' in Town10HD_Opt. No traffic actors, no pedestrians, no events. Weather and seed are specified in the route XML and metadata.",
+  "route_id": "0",
+  "town": "Town10HD_Opt",
+  "route_xml": "evaluation_assets/routes/routes_town10_sp147_regression.xml",
+  "available_scenarios": [],
+  "traffic_actors": "none",
+  "pedestrians": "none",
+  "traffic_manager": "none"
+}

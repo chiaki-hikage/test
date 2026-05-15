@@ -1,0 +1,65 @@
+{
+  "map_asset": "CARLA standard map",
+  "map_name": "Town10HD_Opt",
+  "route_xml_town": "Town10HD_Opt",
+  "loaded_carla_map_name_expected": "Town10HD_Opt",
+  "town_matches_loaded_map": true,
+  "carla_version": "0.9.16",
+  "leaderboard_root": "/Users/hikage/work/carla/leaderboard",
+  "leaderboard_version_or_commit": "aec81319de6bec57372f25aa94083c9ab0bd4223",
+  "route_id": "0",
+  "route_name": "town10_sp147_normal",
+  "source_route_csv": "carla_maps/Town10HD_Opt_sp147_normal.csv",
+  "route_xml": "evaluation_assets/routes/routes_town10_sp147_regression.xml",
+  "scenario_definition": "evaluation_assets/routes/scenarios_town10_sp147_empty.json",
+  "scenario_definition_note": "Empty scenario set (no traffic actors, no pedestrians). <scenarios> is also present but empty in the route XML.",
+  "waypoint_spacing_m": 10.0,
+  "waypoints_total_in_xml": 34,
+  "source_csv_rows": 335,
+  "route_length_m": 339.4857421569651,
+  "route_z_mode": "fixed",
+  "fixed_z": 0.5,
+  "source_csv_z_min": 0.0,
+  "source_csv_z_max": 0.0,
+  "output_xml_z_min": 0.5,
+  "output_xml_z_max": 0.5,
+  "first_waypoint": {
+    "x": 29.871564865112305,
+    "y": -64.40917205810547,
+    "z": 0.5
+  },
+  "last_waypoint": {
+    "x": 20.035564422607425,
+    "y": 28.23970413208008,
+    "z": 0.5
+  },
+  "weather_name": "hard_rain_fog",
+  "weather_parameters": {
+    "cloudiness": 100.0,
+    "precipitation": 100.0,
+    "precipitation_deposits": 100.0,
+    "wetness": 100.0,
+    "wind_intensity": 80.0,
+    "sun_azimuth_angle": 0.0,
+    "sun_altitude_angle": 20.0,
+    "fog_density": 35.0,
+    "fog_distance": 15.0,
+    "fog_falloff": 1.0
+  },
+  "traffic_actors": "none",
+  "pedestrians": "none",
+  "traffic_manager": "none",
+  "seed": 0,
+  "intended_run_list": [
+    "smoke",
+    "regression"
+  ],
+  "submitted_assets": {
+    "map_name": "Town10HD_Opt",
+    "route_xml": "evaluation_assets/routes/routes_town10_sp147_regression.xml",
+    "scenario_definition": "evaluation_assets/routes/scenarios_town10_sp147_empty.json",
+    "weather_parameters": "hard_rain_fog",
+    "seed": 0
+  },
+  "note": "Learning data route (Town10HD_Opt sp147) reused as regression evaluation to compare before/after additional training under the same conditions. A held-out route for generalization evaluation will be created separately."
+}
