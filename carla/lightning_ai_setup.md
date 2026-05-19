@@ -189,8 +189,8 @@ cd /teamspace/studios/this_studio/CARLAUE5
 
 # 疎通確認 (10 秒・800x450)
 python scripts/replay_egomotion_capture_images.py \
-  --csv outputs_physicsnemo/carla_route/Town10HD_Opt_sp147_normal/misjudged_low_mu/egomotion.csv \
-  --sample-id town10_sp147_misjudged_low_mu_4cam_10sec_rain \
+  --csv outputs_physicsnemo/carla_route/Town10HD_Opt_sp147_normal/egomotion.csv \
+  --sample-id town10_sp147_4cam_10sec_rain \
   --output-dir output \
   --map Town10HD_Opt \
   --strict-map-check \
